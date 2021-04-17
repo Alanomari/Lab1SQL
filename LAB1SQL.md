@@ -1,3 +1,4 @@
+LAB1SQL
 # /** G DEL För Moon Missions **/ 
 SELECT [Spacecraft],[Launch date],[Carrier rocket],[Operator],[Mission type]  
 INTO SuccessfulMissions
