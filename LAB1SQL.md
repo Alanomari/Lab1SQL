@@ -5,7 +5,6 @@ INTO SuccessfulMissions
 FROM MoonMissions
 WHERE Outcome = 'Successful'
 
-SELECT * FROM SuccessfulMissions
 GO
 
  UPDATE SuccessfulMissions   
@@ -43,6 +42,7 @@ UPDATE NewUsers SET [UserName] = 'felber02' WHERE [ID] = '880706-3713'
 SET ANSI_WARNINGS ON;
 
 GO
+
 DELETE FROM NewUsers WHERE ID < '7' AND Gender = 'Female';
 
 GO
